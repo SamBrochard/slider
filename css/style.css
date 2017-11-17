@@ -1,0 +1,62 @@
+/* Global*/
+* {
+    box-sizing: border-box;
+    /*eviter les bug sous chrome de transition*/
+    -webkit-transform: translate(0;);
+}
+html {
+    font-size: 16px;
+}
+body{
+	background-image: url(../img/concrete_seamless.png);
+}
+h1{
+	color: #17657C;
+	margin-bottom: 2em;
+}
+button{
+	color: #2A8782;
+	border: none;
+	margin-left: 2em;
+}
+li{
+	list-style: none;
+	margin: .5em;
+}
+
+li i{
+	border: 1px solid black;
+	padding: .5em;
+}
+
+ul{
+	padding: 0;
+	margin-top: -1em;
+	display: flex;
+	flex-direction: row;
+	align-content: flex-end;
+	justify-content: center;
+	margin-left: 3em;
+}
+main{
+	text-align: right;
+	margin-right: 2em;
+}
+img{
+	margin-top: 2em;
+	margin-right: 3em;
+	border: 5px solid #fff;
+	box-shadow: 0 10px 10px grey;
+	border-radius: 25px;
+	transform: rotate(-8deg);
+
+}
+
+.todlbar{
+	display: none;
+}
+
+p{
+	margin-right: 5em;
+	font-size: 3em;
+}
